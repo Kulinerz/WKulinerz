@@ -1,24 +1,27 @@
+            /* Lebar web */
 .lebarweb{
-    width: 1512px;
-    height: 982px;
-    background: #FFF;
+    width: 100%;
+    height: 100%;
 }
- 
+
+            /* Kolom Navigasi */ 
 .topnav{
     width: 1512px;
-    height: 83px;
+    height: 40px;
     flex-shrink: 0;
-    border: 4px solid #000;
+    border: 3px solid #000;
     background: #648813;
     position: fixed;
     top: 0;
     width: 100%;
     left: 0;
 }
+
+            /* Kolom Menu */
 .home{             
     color: #FFF;
     font-family: Super Snack;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -27,25 +30,17 @@
 .offers{
     color: #FFF;
     font-family: Super Snack;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
 }
-.lucu{
-    top: 50%;
-    width: 151px;
-    height: 57px;
-    flex-shrink: 0;
-    text-align: center;
-    margin: auto;
-}
 
 .place{
     color: #FFF;
     font-family: Super Snack;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -55,29 +50,40 @@
 .about{
     color: #FFF;
     font-family: Super Snack;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
 }
 
-.lunch{
-    width: 50%;
-    position: absolute;
-    top:350px;
-    left:400px;
+            /* Gambar Nav Logo */
+.lucu{
+    top: 50%;
+    height: 40px;
+    flex-shrink: 0;
+    text-align: center;
+    margin: auto;
+}
+
+            /* Gambar Background Home */
+.segawon{
+    width: 45%;
     position: fixed;
+    top:0;
+    left:300px;
 }
 
 .rawon{
-    width: 50%;
-    position: absolute;
-    top: 450px;
-    left: 550px;
+    width: 30%;
     position: fixed;
+    top: 400px;
+    left: 30%;
 }
 
+.rawonsegawon {
+    padding-top: 0%;
+}
 
 
 
