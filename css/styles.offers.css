@@ -3,12 +3,15 @@
     height: 100%;
 }
 
+            /* Background body */
+.background{
+    background-color: #fdbe40;
+}
+            
 .topnav{
     width: 1512px;
     height: 50px;
     flex-shrink: 0;
-    border: 4px solid #000;
-    background: #648813;
     position: fixed;
     top: 0;
     width: 100%;
