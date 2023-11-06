@@ -14,7 +14,7 @@
     width: 1512px;
     height: 40px;
     flex-shrink: 0;
-    border: 2px solid #000;
+    border-bottom: 2px solid #000;
     background: #648813;
     position: fixed;
     top: 0;
@@ -66,29 +66,32 @@
 .lucu{
     height: 35px;
     flex-shrink: 0;
-    text-align: center;
+    text-align: bottom;
     margin: auto;
     position: relative;
     object-fit: cover;
+    justify-content: center
 }
 
             /* Gambar Background Home */
 .segawon{
     width: 45%;
     position: fixed;
-    top:0;
-    left:300px;
+    top: 0;
+    left: 6%;
 }
 
 .rawon{
+    align-content: center;
     width: 30%;
     position: fixed;
-    top: 400px;
-    left: 30%;
+    top: 250px;
+    left: 15%;
 }
 
 .rawonsegawon {
     padding-top: 0%;
+    flex-basis: auto;
 }
 
 
