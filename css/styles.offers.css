@@ -1,155 +1,85 @@
-body {
-    margin: 0;
-    line-height: normal;
+.lebarweb {
+    background: #a59910;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.menu4 {
-    position: absolute;
-    top: 69px;
-    left: 0px;
-    border-radius: 5px;
-    background-color: #fff;
-    border: 4px solid #000;
-    box-sizing: border-box;
-    width: 330px;
-    height: 521px;
+.navbar {
+border: 4px solid #000;
+background: #006838;
+flex-shrink: 0;
+border: 4px solid #000;
+background: #006838;
+position: fixed;
+top: 0;
+width: 100%;
+left: 0;
 }
-.div {
-    position: absolute;
-    top: 490px;
-    left: 118px;
-    font-weight: 600;
-    display: inline-block;
-    width: 93px;
-    height: 67px;
+
+.navbar ul {
+list-style: none;
+margin: 0;
+padding: 0;
+float: right;
 }
-.menus4-child {
-    position: absolute;
-    top: 72.33px;
-    left: 172.07px;
-    width: 154.5px;
-    height: 116px;
+
+.navbar li {
+display: inline;
+text-align: center;
+padding: 20px 30px;
+display: inline-block;
 }
-.menus4 {
-    position: absolute;
-    top: 0px;
-    left: 1098px;
-    width: 362.74px;
-    height: 590px;
+
+.navbar li:hover {
+color: white;
+cursor: pointer;
 }
-.menus3 {
-    position: absolute;
-    top: 0px;
-    left: 732px;
-    width: 362.74px;
-    height: 590px;
-}
-.menus2 {
-    position: absolute;
-    top: 0px;
-    left: 366px;
-    width: 362.74px;
-    height: 590px;
-}
-.div3 {
-    position: absolute;
-    top: 489.83px;
-    left: 118px;
-    font-weight: 600;
-    display: inline-block;
-    width: 93px;
-    height: 67px;
-}
-.menu1 {
-    position: absolute;
-    top: 68.83px;
-    left: 0px;
-    border-radius: 5px;
-    background-color: #fff;
-    border: 4px solid #000;
-    box-sizing: border-box;
-    width: 330px;
-    height: 521px;
-}
-.rawons-removebg-preview-1-icon {
-    position: absolute;
-    top: 253.83px;
-    left: 61px;
-    width: 208px;
-    height: 225px;
-    object-fit: cover;
-}
-.menus1-child {
-    position: absolute;
-    top: 72.33px;
-    left: 172px;
-    width: 154.5px;
-    height: 116px;
-}
-.menus1 {
-    position: absolute;
-    top: 0.17px;
-    left: 0px;
-    width: 362.67px;
-    height: 589.83px;
-}
-.menu {
-    position: absolute;
-    top: 162px;
-    left: 42px;
-    width: 1460.74px;
-    height: 590px;
-}
+
 .home {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #000;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+color: #fff;
+font-family: Super Snack;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
 }
-.offers1 {
-    position: absolute;
-    top: 0px;
-    left: 118px;
-}
-.place {
-    position: absolute;
-    top: 0px;
-    left: 251px;
-}
-.about-us {
-    position: absolute;
-    top: 0px;
-    left: 374px;
-}
-.home-parent {
-    position: absolute;
-    top: 50px;
-    left: 498px;
-    width: 479px;
-    height: 30px;
-    font-size: 25px;
-    font-family: 'Super Snack';
-}
-.offers-child {
-    position: absolute;
-    top: 742.76px;
-    left: 0px;
-    border-radius: 200px;
-    width: 1582px;
-    height: 239.24px;
-}
+
 .offers {
-    position: relative;
-    background-color: #a59910;
-    width: 100%;
-    height: 982px;
-    overflow: hidden;
-    text-align: left;
-    font-size: 40px;
-    color: #000;
-    font-family: Montserrat;
+color: #fff;
+font-family: Super Snack;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+text-align: center;
 }
 
+.lunch {
+width: 151px;
+height: 73px;
+flex-shrink: 0;
+margin: auto;
+}
 
+.place {
+color: #fff;
+font-family: Super Snack;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+
+.about {
+color: #fff;
+font-family: Super Snack;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
