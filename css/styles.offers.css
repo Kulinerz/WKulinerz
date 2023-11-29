@@ -46,6 +46,10 @@ line-height: normal;
 text-decoration: none;
 }
 
+.home:hover{
+    color : #a59910;
+}
+
 .offers {
 color: #fff;
 font-family: Super Snack;
@@ -57,14 +61,11 @@ text-decoration: none;
 text-align: center;
 }
 
-.lunch {
-width: 151px;
-height: 73px;
-flex-shrink: 0;
-margin: auto;
+.offers:hover{
+    color: #a59910;
 }
 
-.place {
+.place{
 color: #fff;
 font-family: Super Snack;
 font-size: 30px;
@@ -72,6 +73,10 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-decoration: none;
+}
+
+.place:hover{
+    color: #a59910;
 }
 
 .about {
@@ -82,4 +87,8 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-decoration: none;
+}
+
+.about:hover{
+    color: #a59910;
 }

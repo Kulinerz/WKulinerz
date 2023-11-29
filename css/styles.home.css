@@ -44,6 +44,7 @@
   font-weight: 400;
   line-height: normal;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .home:hover{
@@ -78,6 +79,7 @@
 .place:hover{
   color: #a59910;
 }
+
 .about {
   color: #fff;
   font-family: Super Snack;
@@ -101,17 +103,13 @@
 
 .segawon {
     display: block;
-    margin: auto;
-    height: auto;
-    margin-top: 200px;
-    width: 500px;
+    margin-top: 100px;
+    width: 900px;
+    left: 123px;
 }
 
 .rawon{
     display: block;
-    margin: auto;
-    height: auto;
-    margin-top: 200px;
     width: 500px;
 }
 
@@ -160,14 +158,18 @@
   position: relative;
   display: block;
   text-align: center;
-  left: 55px;
   font-family: Super Snack;
-  font-weight: 400;
-  color: #ffea00;
+  font-weight: 900;
+  color: #ffffff;
   font-size: 40px;
   letter-spacing: 0;
   line-height: normal;
-  white-space: nowrap;
+  white-space: no wrap;
+  cursor: pointer;
+}
+
+.menu:hover{
+  color: #a59910;
 }
 
 .textorder {
@@ -181,4 +183,8 @@
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
+}
+
+.divrawon{
+  margin-right: 920px;
 }
