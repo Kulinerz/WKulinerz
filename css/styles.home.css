@@ -35,6 +35,8 @@
 .navbar li:hover {
   color: white;
   cursor: pointer;
+  text-decoration: overline;
+
 }
 
 .home {

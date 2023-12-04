@@ -183,7 +183,7 @@
     flex-shrink: 0;
   }
   
-  @media (max-height: 800px) {
+  @media (max-height: 1500px) {
     footer {
       position: static;
     }
@@ -199,7 +199,7 @@
     flex-shrink: 0;
     text-align: left;
     font: bold 16px sans-serif;
-    padding: 30px 0px 20px 50px;
+    padding: 30px 30px 20px 35px;
     margin-top: 80px;
   }
   
