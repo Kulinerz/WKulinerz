@@ -1,0 +1,345 @@
+.lebarweb {
+    background: #a59910;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .navbar {
+    border: 4px solid #000;
+    background: #006838;
+    flex-shrink: 0;
+    border: 4px solid #000;
+    background: #006838;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 2;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+  
+  .navbar li {
+    display: inline;
+    text-align: center;
+    padding: 20px 30px;
+    display: inline-block;
+  }
+  
+  .navbar li:hover {
+    color: white;
+    cursor: pointer;
+    text-decoration: overline;
+  }
+  
+  .home {
+    color: #fff;
+    font-family: Super Snack;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  .home:hover {
+    color: #a59910;
+  }
+  
+  .offers {
+    color: #fff;
+    font-family: Super Snack;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .offers:hover {
+    color: #a59910;
+  }
+  
+  .place {
+    color: #fff;
+    font-family: Super Snack;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  .place:hover {
+    color: #a59910;
+  }
+  .about {
+    color: #fff;
+    font-family: Super Snack;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  .about:hover {
+    color: #a59910;
+  }
+  
+  .lunch {
+    width: 151px;
+    height: 73px;
+    flex-shrink: 0;
+    margin: auto;
+  }
+  .banteng {
+    display: block;
+    float: center;
+    margin: auto;
+    margin-top: 200px;
+    width: 550px;
+  }
+  
+  .waviy {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+  }
+  
+  .waviy span {
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    font-family: Super Snack;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(0.2s * var(--i));
+  }
+  
+  .a {
+    color: #ffffff;
+  }
+  .b {
+    color: #ffffff;
+  }
+  .c {
+    color: #ffffff;
+  }
+  .d {
+    color: #ffffff;
+  }
+  .e {
+    color: #ffffff;
+  }
+  
+  .f {
+    color: #006838;
+  }
+  .g {
+    color: #006838;
+  }
+  .h {
+    color: #006838;
+  }
+  .i {
+    color: #006838;
+  }
+  .j {
+    color: #006838;
+  }
+  .k {
+    color: #006838;
+  }
+  .l {
+    color: #006838;
+  }
+  
+  @keyframes flip {
+    0%,
+    80% {
+      transform: rotateY(360deg);
+    }
+  }
+  .main-text {
+    display: block;
+    font-size: 20px;
+    font-family: Super Snack;
+    text-align: justify;
+    color: #3b2d2d;
+    margin-left: 159px;
+    margin-right: 159px;
+  }
+  
+  footer {
+    bottom: 0;
+    flex-shrink: 0;
+  }
+  
+  @media (max-height: 800px) {
+    footer {
+      position: static;
+    }
+    header {
+      padding-top: 40px;
+    }
+  }
+  
+  .footer-distributed {
+    background-color: #2c292f;
+    box-sizing: border-box;
+    bottom: 0px;
+    flex-shrink: 0;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 30px 0px 20px 50px;
+    margin-top: 80px;
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  /* Footer left */
+  
+  .footer-distributed .footer-left {
+    width: 30%;
+  }
+  
+  .footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px "Cookie", cursive;
+    margin: 0;
+  }
+  
+  /* The company logo */
+  
+  .footer-distributed .footer-left img {
+    width: 30%;
+  }
+  
+  .footer-distributed h3 span {
+    color: #e0ac1c;
+  }
+  
+  .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  /* Footer Center */
+  
+  .footer-distributed .footer-center {
+    width: 35%;
+  }
+  
+  .footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #92999f;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+  
+  .footer-distributed .footer-center i.envelope {
+    font-size: 17px;
+    line-height: 38px;
+  }
+  
+  .footer-distributed .footer-center p {
+    display: inline-block;
+    color: #92999f;
+    vertical-align: middle;
+    margin: 0;
+  }
+  
+  .footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+  }
+  
+  .footer-distributed .footer-center p a {
+    color: #e0ac1c;
+    text-decoration: none;
+  }
+  
+  /* Footer Right */
+  
+  .footer-distributed .footer-right {
+    width: 30%;
+  }
+  
+  .footer-distributed .footer-company {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .footer-distributed .footer-company span {
+    display: block;
+    font-family: Super Snack;
+    color: #e0ac1c;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-distributed .footer-icons {
+    margin-top: 15px;
+  }
+  
+  .footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+  
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+  
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+  
+  /* Here is the code for Responsive Footer */
+  /* You can remove below code if you don't want Footer to be responsive */
+  
+  @media (max-width: 880px) {
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  
+    .footer-distributed .footer-center i {
+      margin-left: 0;
+    }
+  }
+  
