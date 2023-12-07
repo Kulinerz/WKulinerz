@@ -107,10 +107,20 @@ text-decoration: none;
     border: 5px solid black;
 }
 
-.container > div {
-    border: 1px solid black; 
-    padding: 115px; 
-    margin: 5px; 
+.container > .item{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
 }
 
-.container > .item
+.container > .item > img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.container > .item > p {
+    margin: 5px 0;
+}
+
