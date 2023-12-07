@@ -98,7 +98,7 @@ text-decoration: none;
     color: #a59910;
 }
 
-/* Membuat PELEX BOXKS */
+/* Membuat PELEX BOXKS Menu 🥰😱*/
 
 .container{
     display: flex;
@@ -112,3 +112,5 @@ text-decoration: none;
     padding: 115px; 
     margin: 5px; 
 }
+
+.container > .item
