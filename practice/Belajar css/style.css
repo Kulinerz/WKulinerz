@@ -1,0 +1,23 @@
+h1 {
+  color: purple;
+  font-family: sans-serif;
+  font-size: 100px;
+}
+
+body {
+  background :rgb(0, 0, 0) url(cf.png) center center no-repeat;
+  background-size: 50%;
+  /* background-repeat: no-repeat;
+  background-position: bottom center; */
+}
+/* font */
+p {
+  font-family: sans-serif;
+  font-variant: small-caps;
+  line-height: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  font-style: italic;
+  color: #bfe017;
+  stroke: black;
+}
