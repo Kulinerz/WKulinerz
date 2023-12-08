@@ -104,7 +104,9 @@ text-decoration: none;
     display: flex;
     width: 1000px;
     height: 350px;
-    border: 5px solid black;
+    background-color: #f9f9f9; /* Warna background */
+    padding: 20px; /* Padding di dalam container */
+    border-radius: 10px; /* Membuat sudut container membulat */
 }
 
 .container > .item{
@@ -112,15 +114,42 @@ text-decoration: none;
     padding: 20px;
     margin: 5px;
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+/* Image 😎 */
 
 .container > .item > img {
     width: 100px;
     height: auto;
     margin-bottom: 10px;
+    border-radius: 8px; /* Membuat sudut gambar membulat */
 }
+
+/* font🤩 */
 
 .container > .item > p {
     margin: 5px 0;
+    font-size: 16px; /* Ukuran font */
+    color: #333; /* Warna font */
 }
 
+/* hover 🥶 */
+
+.container > .item:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+/* Agar Responsif🥺 */
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column; /* Mengubah arah flex menjadi vertikal di layar kecil */
+    }
+
+    .container > .item {
+        width: 100%; /* Mengatur lebar item menjadi penuh */
+        margin-bottom: 10px; /* Jarak antar item */
+    }
+}
