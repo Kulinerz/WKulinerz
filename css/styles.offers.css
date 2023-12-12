@@ -104,17 +104,19 @@ text-decoration: none;
     display: flex;
     width: 1000px;
     height: 350px;
-    background-color: #f9f9f9; /* Warna background */
+    flex-wrap: nowrap; /* Jika Anda ingin item tetap dalam satu baris */
+    overflow-x: auto; /* Untuk scrolling horizontal */
     padding: 20px; /* Padding di dalam container */
-    border-radius: 10px; /* Membuat sudut container membulat */
 }
 
 .container > .item{
-    border: 1px solid black;
+    border: 4px solid black;
     padding: 20px;
     margin: 5px;
+    background-color: white;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
 }
 
 /* Image 😎 */
@@ -129,6 +131,7 @@ text-decoration: none;
 /* font🤩 */
 
 .container > .item > p {
+    font-family: Super snack;
     margin: 5px 0;
     font-size: 16px; /* Ukuran font */
     color: #333; /* Warna font */
