@@ -94,23 +94,7 @@ text-decoration: none;
     color: #a59910;
 }
 
-/* Peleks box lagi 🥺 */
-
-.container{
-    width: 1200px;
-    height: 500px;
-    border: 5px solid black;
-    margin: 30px auto;
-    box-sizing: border-box;
-    padding: 5px;
-    box-sizing: border-box;
-}
-
-.container div {
-    width: 1170px;
-    height: 120px;
-    background-color: aqua;
-}
+/*  */
 
 
 /* Untuk mengatur responsif layar 😭 */
@@ -144,3 +128,7 @@ text-decoration: none;
 
     /* Sesuaikan elemen lainnya jika diperlukan */
 }
+
+
+
+
