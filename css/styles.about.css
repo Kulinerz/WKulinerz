@@ -1,8 +1,5 @@
 .lebarweb {
-  background: #c21500;  
-background: -webkit-linear-gradient(to right, #ffc500, #c21500);  
-background: linear-gradient(to right, #ffc500, #c21500); 
-
+  background-image: linear-gradient(to right, #ff512f, #fd6626, #f9781e, #f58919, #f09819);
   display: flex;
   flex-direction: row;
   justify-content: center;

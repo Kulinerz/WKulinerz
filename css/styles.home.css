@@ -101,10 +101,14 @@
   margin: auto;
 }
 
+.container{
+  width: 600px;
+}
+
 .segawon {
   display: flex;
   height: auto;
-  float: center;
+  float: left;
   margin:50px;
   padding-top: 100px;
 }
@@ -121,7 +125,7 @@
 
 .text2 {
   width: 340px;
-  text-align: right;
+  text-align: left;
   font-family: Super Snack;
   font-weight: 400;
   font-size: 40px;
@@ -140,7 +144,6 @@
   padding: 5px 50px;
   border: #3b2d2d 3px solid;
   border-radius: 30px;
-
 }
 
 .textorder {
@@ -154,9 +157,4 @@
   line-height: normal;
   white-space: nowrap;
   
-}
-.sapi {
-  width: 250px;
-  margin-left: 210px;
-
 }
