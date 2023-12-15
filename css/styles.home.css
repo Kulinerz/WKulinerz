@@ -1,5 +1,7 @@
 .lebarweb {
-  background: #a59910;
+  background: #ffe259; 
+  background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  
+  background: linear-gradient(to right, #ffa751, #ffe259); 
   display: flex;
   flex-direction: row;
   justify-content: center;

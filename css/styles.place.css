@@ -1,5 +1,7 @@
 .lebarweb {
-    background: #a59910;
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     justify-content: center; 
     align-items: center; 
     height: 100vh; 
@@ -115,7 +117,7 @@ text-decoration: none;
     height: 300px;
     width: 400px;
     border-radius: 10px;
-    border: 5px solid white;
+    border: 5px solid black;
 }
 
 .footage > .placed2 > img {

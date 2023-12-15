@@ -1,5 +1,8 @@
 .lebarweb {
-  background: #a59910;
+  background: #c21500;  
+background: -webkit-linear-gradient(to right, #ffc500, #c21500);  
+background: linear-gradient(to right, #ffc500, #c21500); 
+
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -192,13 +195,13 @@ footer {
   }
 }
 
-/* Atur style untuk footer */
+/* Atur style untuk footer 🥰 */
 .footer-distributed {
-background: #292c2f; /* Contoh warna background */
+background: #292c2f; 
 color: white;
-width: 100%; /* Lebar penuh */
-box-sizing: border-box; /* Ini memastikan padding tidak menambah lebar */
-padding: 50px 30px; /* Contoh padding */
+width: 100%; 
+box-sizing: border-box; 
+padding: 50px 30px; 
 }
 
 .footer-distributed .footer-left,
@@ -208,8 +211,8 @@ display: inline-block;
 vertical-align: top;
 }
 
-/* Atur style untuk isi footer */
-/* Sesuaikan ini sesuai kebutuhan Anda */
+/* Atur style untuk isi footer 😩 */
+
 .footer-distributed .footer-left {
 width: 30%;
 }
@@ -222,17 +225,17 @@ width: 35%;
 width: 30%;
 }
 
-/* Atur ulang margin dan padding jika diperlukan */
+/* Atur ulang margin dan padding jika diperlukan 😎 */
 body {
 margin: 0;
 padding: 0;
 }
 
-/* Style lainnya */
+/* Style lainnya 💔 */
 /* Tambahkan style lain yang Anda butuhkan */
 
 
-/* Footer left */
+/* Footer left 😱 */
 
 .footer-distributed .footer-left {
   width: 30%;
@@ -244,7 +247,7 @@ padding: 0;
   margin: 0;
 }
 
-/* The company logo */
+/* The company logo 😑 */
 
 .footer-distributed .footer-left img {
   width: 30%;
@@ -261,7 +264,7 @@ padding: 0;
   margin: 0;
 }
 
-/* Footer Center */
+/* Footer Center 😏 */
 
 .footer-distributed .footer-center {
   width: 35%;
@@ -304,7 +307,7 @@ padding: 0;
   text-decoration: none;
 }
 
-/* Footer Right */
+/* Footer Right 😨 */
 
 .footer-distributed .footer-right {
   width: 30%;
