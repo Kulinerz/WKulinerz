@@ -232,7 +232,7 @@ padding: 0;
 /* Tambahkan style lain yang Anda butuhkan */
 
 .vid > iframe{
-  width: 500px;
+  width: 900px;
   height: 500px;
   right: 50%;
 }
@@ -350,6 +350,15 @@ padding: 0;
 
   margin-right: 3px;
   margin-bottom: 5px;
+}
+
+.watsap{
+  width: 24px;
+  height: 24px;
+}
+
+.watsap path {
+  fill: #006838;
 }
 
 /* Here is the code for Responsive Footer */
