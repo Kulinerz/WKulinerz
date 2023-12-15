@@ -231,6 +231,11 @@ padding: 0;
 /* Style lainnya 💔 */
 /* Tambahkan style lain yang Anda butuhkan */
 
+.vid > iframe{
+  width: 500px;
+  height: 500px;
+  right: 50%;
+}
 
 /* Footer left 😱 */
 
