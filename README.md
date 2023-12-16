@@ -1,3 +1,3 @@
 #  Web Culiners
-## Web Ini Dibuat Dengan Sepenuh Hati🥰🥰
+## Web Ini Dibuat Dengan Sepenuh Hati
 
