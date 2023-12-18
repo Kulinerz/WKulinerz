@@ -107,7 +107,15 @@ text-decoration: none;
 }
 
 .placed{
-    display: flexbox;
+    background-color: wheat;
+    border: #000 solid 3px;
+    border-radius: 40px;
+}
+
+.placed2{
+    background-color: wheat;
+    border: #000 solid 3px;
+    border-radius: 40px;
 }
 
 .footage > .placed > img {
@@ -125,7 +133,7 @@ text-decoration: none;
     margin-top: 100px;
     margin-left: 750px;
     height: 300px;
-    width: 400px;
+    width: 800px;
     border-radius: 10px;
     border: 5px solid white;
 }
