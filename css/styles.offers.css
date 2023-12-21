@@ -101,6 +101,7 @@ text-decoration: none;
 
 .container{
     display: flex;
+    flex-direction: column;
     width: 1000px;
     height: 350px;
     flex-wrap: nowrap; /* Jika Anda ingin item tetap dalam satu baris */
@@ -111,7 +112,7 @@ text-decoration: none;
 .container > .item{
     border: 4px solid black;
     padding: 20px;
-    margin: 5px;
+    margin: 13px;
     background-color: white;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
