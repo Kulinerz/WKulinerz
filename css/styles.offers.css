@@ -1,4 +1,6 @@
 .lebarweb {
+    flex-direction: column;
+    display: flex;
     background: #ffe259;  
     background: -webkit-linear-gradient(to right, #ffa751, #ffe259);
     background: linear-gradient(to right, #ffa751, #ffe259); 
@@ -97,6 +99,20 @@ text-decoration: none;
     color: #a59910;
 }
 
+/* Membuat Teks atas 🗣️🗣️ */
+
+.teks-atas {
+    text-align: center; /* Menyelaraskan teks ke tengah */
+    margin-bottom: 10px; /* Memberikan ruang antara teks dan container Flexbox */
+    /* Style lainnya */
+}
+
+.teks-atas h2 {
+    font-size: 30px; /* Ukuran font untuk judul */
+    color: #333; /* Warna font */
+    font-family: super snack;
+}
+
 /* Membuat PELEX BOXKS Menu 😭🥴*/
 
 .container{
@@ -109,6 +125,8 @@ text-decoration: none;
     padding: 20px;
     box-sizing: border-box;
 }
+
+/* Item😣 */
 
 .container > .item{
     flex: 1 1 200px; /* Menambahkan basis fleksibel dan kemampuan untuk tumbuh dan menyusut */
@@ -146,6 +164,60 @@ text-decoration: none;
     transform: scale(1.05); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
+
+/* Felexboks Kedua😩😩 */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Atau gunakan 'space-around' */
+    align-items: center; /* Untuk menyelaraskan item secara vertikal */
+    width: 1000px;
+    max-height: 350px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Item😣 */
+
+.container2 > .item2{
+    flex: 1 1 200px; /* Menambahkan basis fleksibel dan kemampuan untuk tumbuh dan menyusut */
+    max-width: 200px; /* Atur lebar maksimum untuk setiap item */
+    border: 4px solid black;
+    padding: 20px;
+    margin: 13px;
+    background-color: white;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+}
+
+/* Image 😎 */
+
+.container2 > .item2 > img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Membuat sudut gambar membulat */
+}
+
+/* font🤩 */
+
+.container2 > .item2 > p {
+    font-family: Super snack;
+    margin: 5px 0;
+    font-size: 16px; /* Ukuran font */
+    color: #333; /* Warna font */
+}
+
+/* hover 🥶 */
+
+.container2 > .item2:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
 
 /* Agar Responsif🥺 */
 
