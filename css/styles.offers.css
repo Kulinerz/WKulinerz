@@ -101,14 +101,13 @@ text-decoration: none;
 
 .container{
     display: flex;
-    flex-wrap: wrap; /* Mengizinkan item untuk bungkus */
-    justify-content: center; /* Menyelaraskan item secara horizontal */
-    align-items: center; /* Menyelaraskan item secara vertikal */
+    flex-wrap: wrap;
+    justify-content: space-between; /* Atau gunakan 'space-around' */
+    align-items: center; /* Untuk menyelaraskan item secara vertikal */
     width: 1000px;
-    max-height: 350px; /* Atur tinggi maksimum jika diperlukan */
+    max-height: 350px;
     padding: 20px;
-    border: #000 solid 1px;
-    box-sizing: border-box; /* Pastikan padding dan border termasuk dalam lebar */
+    box-sizing: border-box;
 }
 
 .container > .item{
@@ -152,11 +151,12 @@ text-decoration: none;
 
 @media screen and (max-width: 600px) {
     .container {
-        flex-direction: column; /* Mengubah arah flex menjadi vertikal di layar kecil */
+        flex-direction: column;
+        align-items: stretch; /* Membuat item memenuhi lebar container */
     }
 
     .container > .item {
-        width: 100%; /* Mengatur lebar item menjadi penuh */
-        margin-bottom: 10px; /* Jarak antar item */
+        width: auto; /* Atau persentase tertentu */
+        max-width: none; /* Menghilangkan batasan lebar maksimum */
     }
 }
