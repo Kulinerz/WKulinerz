@@ -104,7 +104,6 @@ text-decoration: none;
 .teks-atas {
     text-align: center; /* Menyelaraskan teks ke tengah */
     margin-bottom: 10px; /* Memberikan ruang antara teks dan container Flexbox */
-    /* Style lainnya */
 }
 
 .teks-atas h2 {
@@ -167,7 +166,7 @@ text-decoration: none;
 
 /* Felexboks Kedua😩😩 */
 
-.container{
+.container2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; /* Atau gunakan 'space-around' */
