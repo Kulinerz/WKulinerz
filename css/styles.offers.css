@@ -99,17 +99,25 @@ text-decoration: none;
     color: #a59910;
 }
 
-/* Membuat Teks atas 🗣️🗣️ */
+/* Membuat Teks atas Bawah🥵 🗣️🗣️ */
 
 .teks-atas {
     text-align: center; /* Menyelaraskan teks ke tengah */
     margin-bottom: 10px; /* Memberikan ruang antara teks dan container Flexbox */
+    margin-top: 270px;
 }
 
 .teks-atas h2 {
-    font-size: 30px; /* Ukuran font untuk judul */
+    font-size: 40px; /* Ukuran font untuk judul */
     color: #333; /* Warna font */
     font-family: super snack;
+}
+
+.teks-atas img {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    border: #fff solid 3px;
 }
 
 /* Membuat PELEX BOXKS Menu 😭🥴*/
@@ -146,6 +154,7 @@ text-decoration: none;
     height: auto;
     margin-bottom: 10px;
     border-radius: 8px; /* Membuat sudut gambar membulat */
+    text-align: center;
 }
 
 /* font🤩 */
