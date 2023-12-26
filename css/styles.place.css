@@ -96,7 +96,7 @@ text-decoration: none;
     color: #a59910;
 }
 
-/* Footage 😑 */
+/* Footage 😑🥵 */
 
 .footage{
     width: 50%;
@@ -119,9 +119,8 @@ text-decoration: none;
 }
 
 .footage > .placed > img {
-    width: 50%;
-    margin-top: 100px;
-    margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 70px;
     height: 300px;
     width: 400px;
     border-radius: 10px;
@@ -129,11 +128,12 @@ text-decoration: none;
 }
 
 .footage > .placed2 > img {
-    width: 50%;
-    margin-top: 100px;
-    margin-left: 750px;
+    margin-top: 5px;
+    margin-left: 650px;
     height: 300px;
-    width: 800px;
+    width: 500px;
     border-radius: 10px;
-    border: 5px solid white;
+    border: 5px solid black;
 }
+
+
