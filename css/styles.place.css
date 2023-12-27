@@ -98,45 +98,6 @@
     color: #a59910;
 }
 
-/* Footage 😑🥵 */
-
-.footage{
-    width: 50%;
-    margin-top: 100px;
-    margin-left: 5px;
-    height: 300px;
-    width: 1100px;
-}
-
-.placed{
-    background-color: wheat;
-    border: #000 solid 3px;
-    border-radius: 40px;
-}
-
-.placed2{
-    background-color: wheat;
-    border: #000 solid 3px;
-    border-radius: 40px;
-}
-
-.footage > .placed > img {
-    margin-top: 10px;
-    margin-left: 70px;
-    height: 300px;
-    width: 400px;
-    border-radius: 10px;
-    border: 5px solid black;
-}
-
-.footage > .placed2 > img {
-    margin-top: 5px;
-    margin-left: 480px;
-    height: 300px;
-    width: 500px;
-    border-radius: 10px;
-    border: 5px solid black;
-}
 
 /* Image Slider 😱😱😱 */
 
@@ -199,5 +160,78 @@
     height: auto;
 }
 
+/* Footage 😑🥵 */
 
+.footage{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 5px;
+    height: 300px;
+    width: 1100px;
+}
 
+.placed{
+    background-color: wheat;
+    border: #000 solid 3px;
+    border-radius: 40px;
+    border-bottom: #000 solid 11px;
+    display: flex;
+    align-items: center;
+}
+
+.placed2{
+    background-color: wheat;
+    border: #000 solid 3px;
+    border-radius: 40px;
+    border-bottom: #000 solid 11px;
+    display: flex;
+}
+
+.footage > .placed > img {
+    margin-top: 13px;
+    margin-left: 70px;
+    margin-bottom: 13px;
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+.footage > .placed2 > img {
+    margin-top: 13px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 13px;
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+.footage > .placed > .footage-text {
+    margin-bottom: 170px;
+    margin-left: 16px;
+}
+
+.footage > .placed > .footage-text > h2 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.footage > .placed > .footage-text > p {
+    margin-top: 40px;
+    margin-bottom: -50px;
+    text-align: center;
+    font-family: arial;
+}
+
+.footage > .placed2 > .footage-text2 > h2  {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+.footage > .placed2 > .footage-text2 > p  {
+    text-align: center;
+    font-family: arial;
+}
