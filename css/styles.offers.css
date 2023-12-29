@@ -12,44 +12,45 @@
 }
 
 .navbar {
-border: 4px solid #000;
-background: #006838;
-flex-shrink: 0;
-border: 4px solid #000;
-background: #006838;
-position: fixed;
-top: 0;
-width: 100%;
-left: 0;
+    z-index: 1000;
+    border: 4px solid #000;
+    background: #006838;
+    flex-shrink: 0;
+    border: 4px solid #000;
+    background: #006838;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
 }
 
 .navbar ul {
-list-style: none;
-margin: 0;
-padding: 0;
-text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 .navbar li {
-display: inline;
-text-align: center;
-padding: 20px 30px;
-display: inline-block;
+    display: inline;
+    text-align: center;
+    padding: 20px 30px;
+    display: inline-block;
 }
 
 .navbar li:hover {
-color: white;
-cursor: pointer;
+    color: white;
+    cursor: pointer;
 }
 
 .home {
-color: #fff;
-font-family: Super Snack;
-font-size: 30px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-decoration: none;
+    color: #fff;
+    font-family: Super Snack;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
 }
 
 .home:hover{
@@ -57,14 +58,14 @@ text-decoration: none;
 }
 
 .offers {
-color: #fff;
-font-family: Super Snack;
-font-size: 30px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-decoration: none;
-text-align: center;
+    color: #fff;
+    font-family: Super Snack;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    text-align: center;
 }
 
 .offers:hover{
@@ -72,13 +73,13 @@ text-align: center;
 }
 
 .place{
-color: #fff;
-font-family: Super Snack;
-font-size: 30px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-decoration: none;
+    color: #fff;
+    font-family: Super Snack;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
 }
 
 .place:hover{
@@ -86,13 +87,13 @@ text-decoration: none;
 }
 
 .about {
-color: #fff;
-font-family: Super Snack;
-font-size: 30px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-decoration: none;
+    color: #fff;
+    font-family: Super Snack;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
 }
 
 .about:hover{
@@ -131,12 +132,13 @@ text-decoration: none;
     max-height: 350px;
     padding: 20px;
     box-sizing: border-box;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 /* Item😣 */
 
 .container > .item{
+    z-index: 1;
     flex: 1 1 200px; /* Menambahkan basis fleksibel dan kemampuan untuk tumbuh dan menyusut */
     max-width: 200px; /* Atur lebar maksimum untuk setiap item */
     border: 4px solid black;
