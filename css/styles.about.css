@@ -229,7 +229,6 @@ padding: 0;
 }
 
 /* Style lainnya 💔 */
-/* Tambahkan style lain yang Anda butuhkan */
 
 .vid > iframe{
   width: 900px;
@@ -361,20 +360,60 @@ padding: 0;
   fill: #006838;
 }
 
-/* Here is the code for Responsive Footer */
-/* You can remove below code if you don't want Footer to be responsive */
+/* Gambar Responsif 🥺🥺🥺 */
+img {
+  max-width: 100%;
+  height: auto;
+}
 
-@media (max-width: 880px) {
-  .footer-distributed .footer-left,
-  .footer-distributed .footer-center,
-  .footer-distributed .footer-right {
-    display: block;
-    width: 100%;
-    margin-bottom: 40px;
+/* Media Queries 😎😎😎 */
+@media screen and (max-width: 768px) {
+.navbar ul {
+    float: none;
     text-align: center;
   }
 
-  .footer-distributed .footer-center i {
-    margin-left: 0;
+.navbar li {
+    display: block;
+    padding: 10px 20px;
+  }
+
+.banteng, .vid > iframe {
+    width: 100%;
+    height: auto;
+  }
+
+.main-text, .footer-distributed {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+.footer-distributed .footer-left, 
+.footer-distributed .footer-center, 
+.footer-distributed .footer-right {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+.navbar li {
+    padding: 10px 15px;
+  }
+
+.waviy span {
+    font-size: 20px;
+  }
+
+.main-text {
+    font-size: 16px;
+  }
+
+.footer-distributed h3 {
+    font-size: 24px;
+  }
+
+.footer-distributed .footer-company span {
+    font-size: 20px;
   }
 }

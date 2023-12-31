@@ -158,3 +158,68 @@
   white-space: nowrap;
   
 }
+
+/* Gambar Responsif 😱💯*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media Query 🥶🥶💯💯 */
+@media screen and (max-width: 768px) {
+.navbar ul {
+    float: none;
+    text-align: center;
+  }
+
+.navbar li {
+    display: block;
+    padding: 10px 20px;
+  }
+
+.container {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+.segawon {
+    margin: 20px;
+    padding-top: 50px;
+  }
+
+.text1, .text2 {
+    width: auto;
+    margin-top: 200px;
+    font-size: 30px;
+  }
+
+.menu {
+    font-size: 30px;
+    margin-left: 20px;
+    padding: 5px 25px;
+  }
+
+.textorder {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+.navbar li {
+    padding: 10px 15px;
+  }
+
+.text1, .text2 {
+    font-size: 25px;
+  }
+
+.menu {
+    font-size: 25px;
+    padding: 5px 20px;
+  }
+
+.textorder {
+    font-size: 18px;
+  }
+}

@@ -103,14 +103,14 @@
 /* Membuat Teks atas Bawah🥵 🗣️🗣️ */
 
 .teks-atas {
-    text-align: center; /* Menyelaraskan teks ke tengah */
-    margin-bottom: 10px; /* Memberikan ruang antara teks dan container Flexbox */
+    text-align: center; 
+    margin-bottom: 10px; 
     margin-top: 270px;
 }
 
 .teks-atas h2 {
-    font-size: 40px; /* Ukuran font untuk judul */
-    color: #333; /* Warna font */
+    font-size: 40px; 
+    color: #333; 
     font-family: super snack;
 }
 
@@ -126,8 +126,8 @@
 .container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Atau gunakan 'space-around' */
-    align-items: center; /* Untuk menyelaraskan item secara vertikal */
+    justify-content: space-between; 
+    align-items: center; 
     width: 1000px;
     max-height: 350px;
     padding: 20px;
@@ -139,8 +139,8 @@
 
 .container > .item{
     z-index: 1;
-    flex: 1 1 200px; /* Menambahkan basis fleksibel dan kemampuan untuk tumbuh dan menyusut */
-    max-width: 200px; /* Atur lebar maksimum untuk setiap item */
+    flex: 1 1 200px; 
+    max-width: 200px; 
     border: 4px solid black;
     padding: 20px;
     margin: 13px;
@@ -156,7 +156,7 @@
     width: 100px;
     height: auto;
     margin-bottom: 10px;
-    border-radius: 8px; /* Membuat sudut gambar membulat */
+    border-radius: 8px; 
     text-align: center;
 }
 
@@ -165,8 +165,8 @@
 .container > .item > p {
     font-family: Super snack;
     margin: 5px 0;
-    font-size: 16px; /* Ukuran font */
-    color: #333; /* Warna font */
+    font-size: 16px; 
+    color: #333; 
 }
 
 /* hover 🥶 */
@@ -181,8 +181,8 @@
 .container2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Atau gunakan 'space-around' */
-    align-items: center; /* Untuk menyelaraskan item secara vertikal */
+    justify-content: space-between; 
+    align-items: center; 
     width: 1000px;
     max-height: 350px;
     padding: 20px;
@@ -192,8 +192,8 @@
 /* Item😣 */
 
 .container2 > .item2{
-    flex: 1 1 200px; /* Menambahkan basis fleksibel dan kemampuan untuk tumbuh dan menyusut */
-    max-width: 200px; /* Atur lebar maksimum untuk setiap item */
+    flex: 1 1 200px; 
+    max-width: 200px; 
     border: 4px solid black;
     padding: 20px;
     margin: 13px;
@@ -209,7 +209,7 @@
     width: 100px;
     height: auto;
     margin-bottom: 10px;
-    border-radius: 8px; /* Membuat sudut gambar membulat */
+    border-radius: 8px; 
 }
 
 /* font🤩 */
@@ -217,8 +217,8 @@
 .container2 > .item2 > p {
     font-family: Super snack;
     margin: 5px 0;
-    font-size: 16px; /* Ukuran font */
-    color: #333; /* Warna font */
+    font-size: 16px; 
+    color: #333; 
 }
 
 /* hover 🥶 */
@@ -235,11 +235,65 @@
 @media screen and (max-width: 600px) {
     .container {
         flex-direction: column;
-        align-items: stretch; /* Membuat item memenuhi lebar container */
+        align-items: stretch; 
     }
 
     .container > .item {
-        width: auto; /* Atau persentase tertentu */
-        max-width: none; /* Menghilangkan batasan lebar maksimum */
+        width: auto; 
+        max-width: none; 
+    }
+}
+
+
+/* Gambar Responsif 🫵💯👍 */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media Queries 👑👑👑 */
+@media screen and (max-width: 768px) {
+.navbar ul {
+    float: none;
+    text-align: center;
+    }
+
+.navbar li {
+    display: block;
+    padding: 10px 20px;
+    }
+
+.container, .container2 {
+    width: auto;
+    padding: 0 10px;
+    }
+
+.container > .item, .container2 > .item2 {
+    flex: 1 1 auto;
+    max-width: none;
+    }
+
+.teks-atas h2 {
+    font-size: 30px;
+    }
+
+.teks-atas img {
+    width: 80px;
+    height: 80px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+.navbar li {
+    padding: 10px 15px;
+    }
+
+.teks-atas h2 {
+    font-size: 25px;
+    }
+
+.teks-atas img {
+    width: 60px;
+    height: 60px;
     }
 }
